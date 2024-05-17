@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report - Credit Risk Analysis
 
 ## Overview of the Analysis
 
@@ -6,20 +6,20 @@
 * The models predict the credit worthiness of individuals based on their credit risk.
 * The overall accurracy and precision were attempted to be predicted from the trained models.
 * The following steps here followed:
-    The data was read into a dataframe from the given csv file. 
-    Created labels set (y) from the “loan_status” column, and then created the features (X) DataFrame from the remaining columns.
-    The data was split into train and test pools utilizing train_test_split.  
-    A logistic regression model was fit using the training data (X_train and y_train).
-    Predictions for the testing data lables were saved using the testing feature data (X_test) and the fitted model. 
-    Then evaluated the models performance by generating a confusion maatrix and printing the classification report. 
+  - The data was read into a dataframe from the given csv file. 
+  - Created labels set (y) from the “loan_status” column, and then created the features (X) DataFrame from the remaining columns.
+  - The data was split into train and test pools utilizing train_test_split.  
+  - A logistic regression model was fit using the training data (X_train and y_train).
+  - Predictions for the testing data lables were saved using the testing feature data (X_test) and the fitted model. 
+  - Then evaluated the models performance by generating a confusion maatrix and printing the classification report. 
 
 ## Results
 
 * Description of Model 1 Accuracy, Precision, and Recall scores. 
-    Overall accuracy of the model is at 99% which is very high. 
-    Precision is at 100% for healthy loans and 85% for high risk loans.
-    Recall is at 99% for healthy loans and 95% for high risk loans.
-    The model is able to predict healthy loans very well but the high risk loans a little less successfully.
+  - Overall accuracy of the model is at 99% which is very high. 
+  - Precision is at 100% for healthy loans and 85% for high risk loans.
+  - Recall is at 99% for healthy loans and 95% for high risk loans.
+  - The model is able to predict healthy loans very well but the high risk loans a little less successfully.
 
 ## Summary
 
