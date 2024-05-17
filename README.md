@@ -9,9 +9,9 @@ The instructions for this Challenge are divided into the following subsections:<
 
 ## Split the Data into Training and Testing Sets
 Open the starter code notebook and use it to complete the following steps:<br>
-    Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.<br>
-    Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.v
-    Split the data into training and testing datasets by using train_test_split.<br>
+  - Read the lending_data.csv data from the Resources folder into a Pandas DataFrame.<br>
+  - Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.v
+  - Split the data into training and testing datasets by using train_test_split.<br>
 
 ## Create a Logistic Regression Model with the Original Data
 Use your knowledge of logistic regression to complete the following steps:<br>
