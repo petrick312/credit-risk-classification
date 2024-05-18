@@ -2,16 +2,16 @@
 
 ## Overview of the Analysis
 
-* The purpose of this analyais was to determine the credit risk for 'healthy' loans and for 'high risk loans'.
+* The purpose of this analysis was to determine the credit risk for 'healthy' loans and for 'high risk loans'.
 * The models predict the credit worthiness of individuals based on their credit risk.
-* The overall accurracy and precision were attempted to be predicted from the trained models.
+* The overall accuracy  and precision were attempted to be predicted from the trained models.
 * The following steps here followed:
   - The data was read into a dataframe from the given csv file. 
   - Created labels set (y) from the “loan_status” column, and then created the features (X) DataFrame from the remaining columns.
   - The data was split into train and test pools utilizing train_test_split.  
   - A logistic regression model was fit using the training data (X_train and y_train).
-  - Predictions for the testing data lables were saved using the testing feature data (X_test) and the fitted model. 
-  - Then evaluated the models performance by generating a confusion maatrix and printing the classification report. 
+  - Predictions for the testing data labels were saved using the testing feature data (X_test) and the fitted model. 
+  - Then evaluated the models performance by generating a confusion matrix and printing the classification report. 
 
 ## Results
 
